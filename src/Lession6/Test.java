@@ -14,7 +14,6 @@ public class Test {
 		int numB = scanner.nextInt();
 
 		
-		boiCNN(numA,numB);
 	}
 
 	public static void boiCNN(int a, int b) {
