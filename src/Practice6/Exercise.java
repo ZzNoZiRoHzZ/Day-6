@@ -26,6 +26,7 @@ public class Exercise {
 		
 		System.out.println("So dao nguoc cua so N:");
 		soDN(numN1);
+		System.out.println();
 		
 		System.out.println("Chu so lon nhat trong so N:" + chuSLN(numN1));
 		
@@ -35,7 +36,7 @@ public class Exercise {
 		System.out.println("Input B:");
 		int numB = scanner.nextInt();
 
-		System.out.println("Uoc so chung lon nhat cua 2 A va B:" + uocSCLN(numA,numB));
+		System.out.println("Uoc so chung lon nhat cua 2 A va B: " + uocSCLN(numA,numB));
 		
 		boiCNN(numA,numB);
 		
@@ -52,7 +53,7 @@ public class Exercise {
 
 	// Câu 2:
 	public static int tichUSL(int a) {
-		int tichUS = 0;
+		int tichUS = 1;
 		
 		for(int i = 1; i <= a; i++) {
 			if(a % i == 0 && i%2 != 0) {
@@ -76,7 +77,7 @@ public class Exercise {
 	//Câu 4:
 	public static int tichCSL(int a) {
 		int tichSL = 1, digit;
-		int soLe = 0, soChan = 0;
+		int soLe = 0;
 		while (a > 0) {
 			digit = a % 10;
 			if (digit % 2 != 0) {
